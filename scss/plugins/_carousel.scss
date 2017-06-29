@@ -1,7 +1,19 @@
+
 .carousel-inner {
   & > .item {
     & > img {
       width: 100%;
     }
+  }
+}
+.main-slider {
+  .carousel-indicators {
+    margin: 0;
+    width: 50px;
+    left: inherit;
+    right: 0;
+    transform: rotate(90deg);
+    bottom: inherit;
+    top: 50%;
   }
 }
