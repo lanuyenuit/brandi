@@ -2687,16 +2687,20 @@ header li {
   padding-bottom: 140px; }
 
 .features-content-img {
-  float: left; }
+  float: left;
+  padding-right: 10px; }
 
 .features-content {
   overflow: hidden; }
 
 .all-header {
-  margin: 80px 0 27px 0; }
+  margin-bottom: 0;
+  padding-top: 0; }
   .all-header h2 {
     color: #0eb493;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px; }
 
 .header-content-img img {
   margin-right: 14px; }
@@ -2707,7 +2711,7 @@ header li {
 .all-header-hr-img {
   justify-content: center;
   display: flex;
-  margin-bottom: 65px; }
+  margin-bottom: 45px; }
 
 .all-header-img {
   margin: 10px; }
@@ -2778,7 +2782,8 @@ hr {
 
 .txt-header {
   text-align: center;
-  color: #062033; }
+  color: #062033;
+  margin-bottom: 30px; }
 
 .work-navbar {
   display: flex;
@@ -2810,6 +2815,28 @@ hr {
   max-width: 100%; }
 .meet-content .col-sm-3 {
   padding: 0; }
+
+.work-header-hr-img {
+  margin-bottom: 25px; }
+
+.all-header {
+  padding-top: 100px; }
+
+.meet-content img {
+  max-width: 100%; }
+.meet-content .col-sm-3 {
+  padding: 0; }
+
+.meet {
+  clear: both;
+  margin-bottom: 200px; }
+
+.funfacts {
+  clear: both;
+  background-image: url("../img/fun-rectangle.png"); }
+
+.row-content h1, .row-content p {
+  color: white; }
 
 .carousel-inner > .item > img {
   width: 100%; }
