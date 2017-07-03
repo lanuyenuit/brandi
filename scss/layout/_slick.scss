@@ -9,29 +9,29 @@
 .features-content{
   overflow:hidden;
 }
-.features-header{
+.all-header{
   margin: 80px 0 27px 0;
   h2{
     color: #0eb493;
     text-align: center;
   }
 }
-.features-content-img{
+.header-content-img{
   img{
     margin-right: 14px;
   }
 }
-.features-header-hr{
+.all-header-hr{
   hr{
     width: 100px;
   }
 }
-.features-header-hr-img{
+.all-header-hr-img{
   justify-content: center;
   display: flex;
   margin-bottom: 65px;
 }
-.features-header-img{
+.all-header-img{
   margin:10px;
 }
 
@@ -48,10 +48,9 @@
     background-color: black;
   }
 }
-.features-dot{
-  margin: auto;
+.features-dot {
 }
-.dot-color{
+.dot-color {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -62,4 +61,5 @@
   height: 10px;
   border-radius: 50%;
   background-color: gray;
+
 }
