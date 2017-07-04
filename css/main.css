@@ -2682,6 +2682,17 @@ header li {
 .carousel-caption {
   margin-bottom: 130px; }
 
+.slider-icon img {
+  opacity: 0.5; }
+.slider-icon img:hover {
+  opacity: 1; }
+
+.footer {
+  background: #1ea78d; }
+
+.txt-footer h4, .txt-footer p {
+  color: white; }
+
 .features {
   background-color: #f4f7f9;
   padding-bottom: 140px; }
@@ -2780,6 +2791,41 @@ hr {
 .slider-icon img {
   margin: 5px; }
 
+.row-main {
+  display: block;
+  padding: 20px 0; }
+  .row-main .col-sm-12 {
+    padding: 5px 0; }
+
+.discuss-header {
+  height: 640px; }
+
+.hr-discusss hr {
+  background-color: #cdd2d6; }
+
+.map {
+  position: relative; }
+  .map img {
+    max-width: 100%; }
+  .map .pin {
+    position: absolute;
+    top: 50%; }
+    .map .pin img {
+      float: right; }
+
+.message {
+  display: inline-flex;
+  float: right; }
+  .message img {
+    margin-right: 10px; }
+
+.none-padding {
+  padding-left: 0; }
+
+.address {
+  padding-left: 0;
+  padding-right: 0; }
+
 .txt-header {
   text-align: center;
   color: #062033;
@@ -2795,8 +2841,18 @@ hr {
     margin: 0;
     padding: 0;
     overflow: hidden; }
+    .work-navbar ul a {
+      color: black;
+      padding-top: 5px;
+      /* border-bottom-width: 5px; */
+      padding-bottom: 5px; }
+      .work-navbar ul a:hover {
+        color: white;
+        background-color: #0eb493;
+        border-radius: 5px; }
   .work-navbar li {
-    float: left; }
+    float: left;
+    margin-bottom: 20px; }
   .work-navbar li a {
     display: block;
     text-align: center;
@@ -2808,6 +2864,9 @@ hr {
 
 .works-content img {
   max-width: 100%; }
+  .works-content img:hover {
+    background-color: #0eb493;
+    border-radius: 5px; }
 .works-content .col-sm-3 {
   padding: 0; }
 
@@ -2818,6 +2877,9 @@ hr {
 
 .work-header-hr-img {
   margin-bottom: 25px; }
+
+.img-sub {
+  background-color: #0eb493; }
 
 .all-header {
   padding-top: 100px; }
@@ -2836,7 +2898,16 @@ hr {
   background-image: url("../img/fun-rectangle.png"); }
 
 .row-content h1, .row-content p {
-  color: white; }
+  color: white;
+  margin-left: 30px; }
+
+.border-img img {
+  border: 1px solid white;
+  padding: 45px;
+  border-radius: 50%; }
+
+.col-header .container {
+  margin-left: 150px; }
 
 .carousel-inner > .item > img {
   width: 100%; }

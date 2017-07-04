@@ -1,0 +1,46 @@
+
+.row-main{
+  display:block;
+  padding: 20px 0;
+  .col-sm-12{
+    padding: 5px 0;
+  }
+}
+.discuss-header {
+  height: 640px;
+}
+.hr-discusss{
+  hr{
+    background-color: #cdd2d6;
+  }
+}
+
+.map{
+  img{
+    max-width: 100%;
+  }
+  position: relative;
+  .pin{
+    position: absolute;
+    top: 50%;
+    img{
+      float:right;
+    }
+  }
+}
+
+.message{
+  display: inline-flex;
+  float: right;
+  img{
+    margin-right: 10px;
+  }
+}
+.none-padding{
+  padding-left: 0;
+}
+
+.address{
+  padding-left: 0;
+  padding-right: 0;
+}

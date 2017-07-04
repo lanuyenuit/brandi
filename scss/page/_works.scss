@@ -8,15 +8,29 @@
   margin: auto;
   width: 100%;
   justify-content: center;
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    a {
+      color: black;
+      padding-top: 5px;
+      /* border-bottom-width: 5px; */
+      padding-bottom: 5px;
+      &:hover {
+        color: white;
+        background-color: #0eb493;
+        border-radius: 5px;
+      }
+    }
   }
 
   li {
     float: left;
+    margin-bottom: 20px;
+
   }
 
   li a {
@@ -32,6 +46,11 @@
 .works-content{
   img{
     max-width: 100%;
+      &:hover{
+        background-color: #0eb493;
+        border-radius: 5px;
+      }
+
   }
   .col-sm-3{
     padding: 0;
@@ -48,4 +67,8 @@
 }
 .work-header-hr-img{
   margin-bottom: 25px;
+}
+.img-sub{
+  background-color: #0eb493;
+
 }

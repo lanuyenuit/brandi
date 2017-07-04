@@ -13,3 +13,12 @@
 .carousel-caption{
   margin-bottom: 130px;
 }
+
+.slider-icon{
+  img{
+    opacity: 0.5;
+  }
+  img:hover{
+    opacity: 1;
+  }
+}
