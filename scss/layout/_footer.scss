@@ -1,8 +1,39 @@
 .footer{
   background: #1ea78d;
+  padding: 100px 0;
 }
 .txt-footer{
   h4,p {
     color: white;
   }
+  input{
+    background:none;
+    border: 1px solid #fff;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  a{
+    color: white;
+    text-decoration:none;
+  }
+  img,h4{
+    margin-bottom: 30px;
+  }
+  a{
+    line-height: 2.5;
+  }
+}
+
+#changecolor{
+  color: black;
+}
+.created{
+  color: white;
+  padding-top: 60px;
+}
+
+.copyright{
+  color: black;
+  padding-top: 50px;
 }

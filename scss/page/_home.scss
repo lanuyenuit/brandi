@@ -32,15 +32,28 @@
 .message{
   display: inline-flex;
   float: right;
+  margin-top: 20px;
   img{
     margin-right: 10px;
   }
 }
-.none-padding{
-  padding-left: 0;
+.input-inf{
+  margin-top: 20px;
+  p{
+    color: gray;
+  }
+  input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-bottom: solid 2px #cccccc;
+    outline: none;
+  }
 }
 
 .address{
   padding-left: 0;
   padding-right: 0;
+  color: gray;
 }

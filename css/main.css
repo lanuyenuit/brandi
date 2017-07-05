@@ -2688,10 +2688,35 @@ header li {
   opacity: 1; }
 
 .footer {
-  background: #1ea78d; }
+  background: #1ea78d;
+  padding: 100px 0; }
 
 .txt-footer h4, .txt-footer p {
   color: white; }
+.txt-footer input {
+  background: none;
+  border: 1px solid #fff;
+  width: 100%;
+  margin-bottom: 15px;
+  outline: none; }
+.txt-footer a {
+  color: white;
+  text-decoration: none; }
+.txt-footer img, .txt-footer h4 {
+  margin-bottom: 30px; }
+.txt-footer a {
+  line-height: 2.5; }
+
+#changecolor {
+  color: black; }
+
+.created {
+  color: white;
+  padding-top: 60px; }
+
+.copyright {
+  color: black;
+  padding-top: 50px; }
 
 .features {
   background-color: #f4f7f9;
@@ -2757,10 +2782,15 @@ header li {
   -o-display: flex;
   display: flex; }
 
-.nav li a {
-  color: #ffffff; }
-  .nav li a:hover {
+.nav li {
+  border-top: solid 2px transparent; }
+  .nav li:hover {
+    border-top-color: #0eb493;
     background-color: transparent; }
+  .nav li a {
+    color: white; }
+    .nav li a:hover {
+      background-color: transparent; }
 
 .carousel-caption.h1 {
   margin-top: 0; }
@@ -2785,8 +2815,19 @@ hr {
 
 .slider-icon {
   position: absolute;
-  bottom: 50px;
-  left: 46%; }
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 5s; }
+  .slider-icon a {
+    text-decoration: none; }
+
+.carousel-caption {
+  position: absolute;
+  top: 50%; }
+
+.item {
+  position: relative; }
 
 .slider-icon img {
   margin: 5px; }
@@ -2815,16 +2856,27 @@ hr {
 
 .message {
   display: inline-flex;
-  float: right; }
+  float: right;
+  margin-top: 20px; }
   .message img {
     margin-right: 10px; }
 
-.none-padding {
-  padding-left: 0; }
+.input-inf {
+  margin-top: 20px; }
+  .input-inf p {
+    color: gray; }
+  .input-inf input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-bottom: solid 2px #cccccc;
+    outline: none; }
 
 .address {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  color: gray; }
 
 .txt-header {
   text-align: center;
@@ -2859,16 +2911,35 @@ hr {
     padding: 14px 16px;
     text-decoration: none; }
 
-.all-header {
+all-header {
   padding-top: 100px; }
 
-.works-content img {
-  max-width: 100%; }
-  .works-content img:hover {
-    background-color: #0eb493;
-    border-radius: 5px; }
 .works-content .col-sm-3 {
   padding: 0; }
+  .works-content .col-sm-3 img {
+    max-width: 100%; }
+.works-content .img-bg {
+  position: relative;
+  overflow: hidden;
+  padding: 0; }
+  .works-content .img-bg:hover .img-hover {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.8; }
+
+.img-hover {
+  background-color: #0eb493;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  transition: 1s; }
+  .img-hover h4, .img-hover p {
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    color: white; }
 
 .meet-content img {
   max-width: 100%; }
@@ -2878,9 +2949,6 @@ hr {
 .work-header-hr-img {
   margin-bottom: 25px; }
 
-.img-sub {
-  background-color: #0eb493; }
-
 .all-header {
   padding-top: 100px; }
 
@@ -2888,6 +2956,37 @@ hr {
   max-width: 100%; }
 .meet-content .col-sm-3 {
   padding: 0; }
+.meet-content .container h4, .meet-content .container p {
+  text-align: center; }
+.meet-content .container h4:hover {
+  color: #0eb493; }
+.meet-content .container p {
+  color: #73828d; }
+.meet-content .container .col-sm-3 {
+  padding: 10px; }
+  .meet-content .container .col-sm-3 img {
+    max-width: 100%; }
+.meet-content .container .img-bg {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  width: 100%; }
+  .meet-content .container .img-bg:hover .img-hover {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.9; }
+    .meet-content .container .img-bg:hover .img-hover h4, .meet-content .container .img-bg:hover .img-hover p {
+      color: white; }
+
+.img-hover {
+  background-color: #0eb493;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%; }
+  .img-hover .slider-icon-center {
+    justify-content: center; }
 
 .meet {
   clear: both;
@@ -2895,7 +2994,8 @@ hr {
 
 .funfacts {
   clear: both;
-  background-image: url("../img/fun-rectangle.png"); }
+  background-image: url("../img/fun-rectangle.png");
+  padding-bottom: 100px; }
 
 .row-content h1, .row-content p {
   color: white;
@@ -2908,6 +3008,9 @@ hr {
 
 .col-header .container {
   margin-left: 150px; }
+
+.img-color-fff {
+  color: white; }
 
 .carousel-inner > .item > img {
   width: 100%; }

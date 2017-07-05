@@ -1,10 +1,17 @@
 .navbar-nav {
   @include css3-prefix("display", "flex");
 }
-.nav li a{
-  color: #ffffff;
+.nav li{
+  border-top: solid 2px transparent;
   &:hover{
+    border-top-color: #0eb493;
     background-color: transparent;
+  }
+  a{
+    color: white;
+    &:hover{
+      background-color: transparent;
+    }
   }
 }
 

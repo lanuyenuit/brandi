@@ -7,9 +7,59 @@
   }
   .col-sm-3{
     padding: 0;
+
+  }
+  .container{
+    h4,p{
+      text-align: center;
+    }
+    h4:hover{
+      color: #0eb493;
+    }
+    p{
+      color: #73828d;
+    }
+    .col-sm-3{
+      padding: 10px;
+      img{
+        max-width: 100%;
+
+      }
+
+    }
+    .img-bg {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      width: 100%;
+      &:hover {
+        .img-hover {
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          opacity: 0.9;
+          h4,p{
+            color: white;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.img-hover{
+  background-color: #0eb493;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  .slider-icon-center{
+    justify-content: center;
   }
 }
 .meet{
   clear: both;
   margin-bottom: 200px;
 }
+
